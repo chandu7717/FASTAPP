@@ -5,7 +5,7 @@ from app.routers import blog, user,login_auth ,refresh
 
 fastapp = FastAPI()        #Creating the instance of the fast API
 
-models.Base.metadata.create_all(engin)
+models.Base.metadata.create_all(engin)  #Creating the database using the data connection URL
 
 fastapp.include_router(user.router)
 fastapp.include_router(login_auth.router)
