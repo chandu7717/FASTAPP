@@ -1,0 +1,1 @@
+2025-09-11 16:47:32,950 - INFO - fastapi_app - <-- Response: 200 for Request = GET http://127.0.0.1:8001/user/{id}?user_id=1 (completed in 17.53 ms)

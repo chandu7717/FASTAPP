@@ -6,3 +6,4 @@ passlib~=1.7.4
 bcrypt
 pyjwt~=2.10.1
 python-jose~=3.5.0
+fastapi[standard]
