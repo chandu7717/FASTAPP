@@ -16,7 +16,7 @@ def setup_logger():
         LOG_FILE_PATH = os.path.join(os.path.dirname(__file__), "app.log") #Getting the current file
 
         # File handler
-        file_handler = RotatingFileHandler(LOG_FILE_PATH, maxBytes=1_000_000, backupCount=3)
+        file_handler = RotatingFileHandler(LOG_FILE_PATH, maxBytes=1_000, backupCount=3)
         # The RotatingFileHandler = in this the logs are inserted into the app.log with size of 1MB after the file is full it will create the app.log.1 till 3 fiels
         # A special handler that writes logs to a file and automatically rotates (creates new log files) when the file size limit is reached.
 
